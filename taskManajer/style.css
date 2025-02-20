@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(120deg, #021cb1a8, #0c1dd6a3);
+    height: 100vh;
+}
+#main-container { /* Container principal */
+    display: flex;
+    border-radius: 10px;
+    gap: 0px;
+    padding: 20px;
+}
+#task-container { /* Container de tasks */
+    background-color: #ffffffd5;
+    width: 400px;
+    box-shadow: #00000015 5px 2px 5px 3px;
+    border-radius: 5px 0px 5px 5px;
+    padding: 20px;
+    border-style: solid;
+    border-color: #00000024;
+}
+#task-container h1 {
+    text-shadow: #00000034 2px 0px 5px;
+}
+#task-container hr {
+    width: 80%;
+    margin-bottom: 20px;
+}
+#task-container ul li {
+    margin-left: 20px;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+#enterData-container { /* Container de inserção de dados do usuário */
+    display: flex;
+    box-shadow: #00000015 5px 2px 5px 3px;
+    background-color: #ffffffd5;
+    border-radius: 0px 5px 5px 0px;
+    padding: 30px;
+    height: 30px;
+    margin-top: 0px;
+    border-style: solid;
+    border-left-style: none;
+    border-color: #00000024;
+}
+#enterData-container input{
+    align-self: center;
+    box-shadow: #00000013 1px 2px 5px 3px;
+    width: 140px;
+    padding: 5px;
+    font-size: 17px;
+    height: 20px;
+    border-radius: 2px;
+    border-style: none;
+    margin-right: 20px;
+}
+#enterData-container button {
+    align-self: center;
+    color: #ffffff;
+    text-shadow: #00000034 2px 0px 5px;
+    font-weight: bold;
+    background-color: #03e503;
+    border-style: none;
+    padding: 5px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+#enterData-container button:hover {
+    background-color: #00ff00;
+}
+#enterData-container button:active {
+    box-shadow: inset #00000015 5px 2px 5px 3px;
+    background-color: #03e503;;
+}

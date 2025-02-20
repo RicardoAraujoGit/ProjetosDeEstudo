@@ -6,8 +6,6 @@ const p = window.document.querySelector('#p');
 let arrListOfTasks = [];
 
 addTaskOnList.addEventListener('click', () => {
-
-
     function IdCreator() {
       return `task${arrListOfTasks.length + 1}`;
     }
